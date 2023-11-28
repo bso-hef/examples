@@ -1,4 +1,4 @@
-package de.bso.java.examples.polymorphism.staticp;
+package de.bso.java.examples.inheritance.polymorphism.staticp;
 
 /**
  * Example for static polymorphism.
@@ -10,6 +10,7 @@ public class StaticPolymorphism {
         StaticPolymorphism u = new StaticPolymorphism();
         //Zur Kompilierzeit ist klar welche Methode aufgerufen wird.
         u.print("Hallo");
+
         u.print("Hallo", "Welt");
     }
 

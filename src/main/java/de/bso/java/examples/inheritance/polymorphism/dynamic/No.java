@@ -1,4 +1,4 @@
-package de.bso.java.examples.polymorphism.dynamic;
+package de.bso.java.examples.inheritance.polymorphism.dynamic;
 
 public class No extends Yes {
 

@@ -1,27 +1,29 @@
 package de.bso.java.examples.inputoutput;
 
+
 //imports are required to use existing functionality
-import java.util.*;
+
+import java.util.Scanner;
 
 public class NumberInput {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		//Class Scanner is used to read input from the console(System.in)
-		//Use this whole line to create a Scanner.
-		Scanner input = new Scanner(System.in);
+        //Class Scanner is used to read input from the console(System.in)
+        //Use this whole line to create a Scanner.
+        Scanner input = new Scanner(System.in);
 
-		int number;
 
-		//a request to enter a number is printed to the console
-		System.out.println("Bitte eine Zahl eingeben:");
+        int number;
 
-		//reads an int from the input
-		number = input.nextInt();
+        //a request to enter a number is printed to the console
+        System.out.println("Bitte eine Zahl eingeben:");
 
-		//the output is created by text concatenated with the number stored in the variable number
-		System.out.println("Die Zahl ist:" + number );
+        //reads an int from the input
+        number = input.nextInt();
 
-	}
+        //the output is created by text concatenated with the number stored in the variable number
+        System.out.println("Die Zahl ist:" + number);
 
+    }
 }

@@ -1,4 +1,4 @@
-package de.bso.java.examples.geometricalFigures;
+package de.bso.java.examples.inheritance.geometricalFigures;
 
 public class Painter {
     public static void main(String[] args) throws InterruptedException {

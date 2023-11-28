@@ -3,7 +3,7 @@ package de.bso.java.examples.calculation;
 public class Addition {
 
 	public static void main(String[] args) {
-		
+
 		// eine Variable vom Typ int (Ganzzahl) erzeugen
 		int number1;
 		

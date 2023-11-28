@@ -1,4 +1,4 @@
-package de.bso.java.examples.geometricalFigures;
+package de.bso.java.examples.inheritance.geometricalFigures;
 
 import javax.swing.*;
 import java.awt.*;
