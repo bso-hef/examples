@@ -1,4 +1,4 @@
-package tests;
+package de.bso.java;
 
 import de.bso.java.examples.tests.Calculator;
 import org.junit.jupiter.api.Assertions;
